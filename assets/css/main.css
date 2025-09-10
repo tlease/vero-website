@@ -108,6 +108,7 @@ menu,
 nav,
 section {
 	display: block;
+	scroll-margin-top: 100px;
 }
 
 body {
@@ -2955,15 +2956,15 @@ body.single #wrapper {
 	width: 100%;
 }
 
-/* Intro */
-#intro {
+/* title */
+#title {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 2rem;
 }
 
-#intro .logo {
+#title .logo {
 	border-bottom: 0;
 	display: inline-block;
 	margin: 0 0 1em 0;
@@ -2972,13 +2973,13 @@ body.single #wrapper {
 	/* width: 4em; */
 }
 
-#intro > header {
+#title > header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-/* #intro .logo:before {
+/* #title .logo:before {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -2992,18 +2993,18 @@ body.single #wrapper {
 	width: 100%;
 } */
 
-#intro .logo img {
+#title .logo img {
 	display: block;
 	margin-left: -0.25em;
 	/* width: 4.5em; */
 }
 
-#intro header h2 {
+#title header h2 {
 	font-size: 2em;
 	font-weight: 900;
 }
 
-#intro header p {
+#title header p {
 	font-size: 0.8em;
 	text-align: center;
 }
@@ -3011,24 +3012,24 @@ body.single #wrapper {
 
 @media screen and (max-width: 736px) {
 
-	#intro {
+	#title {
 		margin: 0 0 1.5em 0;
 		padding: 1.25em 0;
 	}
 
-	#intro> :last-child {
+	#title> :last-child {
 		margin-bottom: 0;
 	}
 
-	#intro .logo {
+	#title .logo {
 		margin: 0 0 0.5em 0;
 	}
 
-	#intro header h2 {
+	#title header h2 {
 		font-size: 1.25em;
 	}
 
-	#intro header> :last-child {
+	#title header> :last-child {
 		margin-bottom: 0;
 	}
 
