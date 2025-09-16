@@ -3153,3 +3153,17 @@ body.is-menu-visible #menu {
 	}
 
 }
+
+#esrvicesDetail {
+	margin-bottom: 0;
+}
+
+#servicesDetail p {
+	margin: auto;
+	font-size: 90%;
+}
+
+.svcSubHeading {
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
